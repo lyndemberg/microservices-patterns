@@ -1,0 +1,10 @@
+mongoimport --db portal --collection article --type json --file /dataset/page1.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page2.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page3.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page4.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page5.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page6.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page7.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page8.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page9.json --jsonArray
+mongoimport --db portal --collection article --type json --file /dataset/page10.json --jsonArray
