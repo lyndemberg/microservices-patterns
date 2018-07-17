@@ -1,4 +1,4 @@
-package com.portal.model;
+package com.h3.portal.model;
 
 import lombok.Getter;
 import lombok.Setter;

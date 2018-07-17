@@ -1,7 +1,7 @@
-package com.portal.service;
+package com.h3.portal.service;
 
-import com.portal.model.Article;
-import com.portal.repository.ArticleRepository;
+import com.h3.portal.model.Article;
+import com.h3.portal.repository.ArticleRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

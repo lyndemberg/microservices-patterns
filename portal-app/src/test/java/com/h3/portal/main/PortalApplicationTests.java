@@ -1,4 +1,4 @@
-package com.portal.main;
+package com.h3.portal.main;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

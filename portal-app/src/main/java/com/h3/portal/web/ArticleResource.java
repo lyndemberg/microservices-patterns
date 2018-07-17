@@ -1,7 +1,7 @@
-package com.portal.web;
+package com.h3.portal.web;
 
-import com.portal.model.Article;
-import com.portal.service.ArticleService;
+import com.h3.portal.model.Article;
+import com.h3.portal.service.ArticleService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
