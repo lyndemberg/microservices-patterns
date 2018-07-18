@@ -1,5 +1,6 @@
 package com.h3.gateway;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
@@ -36,4 +37,5 @@ public class RouteFilter extends ZuulFilter {
 
         return null;
     }
+
 }
