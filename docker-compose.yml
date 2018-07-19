@@ -1,0 +1,34 @@
+version: '2.1'
+services:
+    registry:
+        build: ./registry
+        image: homework3/registry
+        container_name: registry
+        expose:
+            - 8761
+        ports:
+            - 8761:8761
+    gateway:
+        build: ./gateway
+        image: homework3/gateway
+        container_name: gateway
+        expose:
+            - 8080
+        ports:
+            - 8080:8080
+    portal-app:
+        build: ./portal-app
+        image: homework3/portal-app
+        container_name: portal-app
+        expose:
+            - 8081
+        ports:
+            - 8081:8081
+    mongo:
+        build: ./mongo
+        image: homework3/mongo
+        container_name: mongodb
+        expose:
+            - 27017
+        ports:
+            - 27017:27017

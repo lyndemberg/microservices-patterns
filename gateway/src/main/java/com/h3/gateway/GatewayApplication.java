@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 
 @EnableZuulProxy
 @EnableDiscoveryClient
+@EnableCircuitBreaker
 @SpringBootApplication
 public class GatewayApplication {
 
